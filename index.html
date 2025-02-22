@@ -3,40 +3,260 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Slideshow</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #111;
-            margin: 0;
-        }
-        .slideshow-container {
-            position: relative;
-            width: 100%;
-            height: 100%;
-        }
-        .slides {
-            border-top: 5px solid black;
-            height: 100%;
-            width: 100%;
-        }
-
-    </style>
+    <title>Meer Azmaan Ali</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="slideshow-container">
-        <img class="slides" src="./Public/Slide1.JPG" alt="Slide 1">
-        <img class="slides" src="./Public/Slide2.JPG" alt="Slide 2">
-        <img class="slides" src="./Public/Slide3.JPG" alt="Slide 3">
-        <img class="slides" src="./Public/Slide4.JPG" alt="Slide 4">
-        <img class="slides" src="./Public/Slide5.JPG" alt="Slide 5">
-        <img class="slides" src="./Public/Slide6.JPG" alt="Slide 6">
-        <img class="slides" src="./Public/Slide7.JPG" alt="Slide 7">
-        <img class="slides" src="./Public/Slide8.JPG" alt="Slide 8">
-    </div>
-    
+    <section class="NameContainer">
+        <div class="name">
+            <h1>Meer Azmaan Ali</h1>
+            <h2>Environment Artist & Game Developer</h2>
+            <p>Creating my own Virtual World</p>
+        </div>
+        <div class="imageHero">
+            <img src="./Public/Hero.png" alt="">         
+        </div>      
+    </section>
+    <section class="about">
+        <div class="profilePic">     
+            <img src="./Public/dp.png" alt="">
+        </div>
+        <div class="profile">
+            <h1>About</h1>
+            <p>I'm a passionate environment artist and game 
+                developer with experience crafting engaging 
+                and visually stunning game worlds. My expertise 
+                lies in Game programming and creating detailed 
+                3D environments Design that enhance the player 
+                experience. I thrive on collaborating with 
+                talented teams to bring creative visions to 
+                life.
+
+            </p>
+            <p>From concept to final polish, I'm dedicated to 
+                delivering high-quality assets that meet the 
+                unique needs of each project. My goal is to 
+                continue pushing the boundaries of interactive 
+                entertainment and contribute to memorable gaming
+                experiences for players worldwide.
+            </p>
+        </div>  
+    </section>
+    <section class="skills">
+        <h1>Skills</h1>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="data:image/png;base64,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" alt="nature">
+                <h1>Environment Art</h1>
+                <p>
+                    Proficient in <b>Blender</b>, and 
+                    <b>unity</b> for creating highly 
+                    detailed <b>environments</b> and level
+                </p>
+            </div>
+            <div class="skill-card">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAADnklEQVR4nO2dy05UQRCGfzCw4fIQqAOuRBcq6so7MUqMBtTg5SEM+gaIrry9AESCwRh0q4kuFN5AHYMbUbaiYJwxgTGd1CSm0uIIHM7fNfUlvSEh5/+rz6nuc7q6B3Acx3Ecx3Ecx3Ecx3Ecx3HWTzOAAQDjAN4DWAJQ+UebA9CbQfBPAvhcw/WXRGvQ3C8ekuQsgI81GK5E2qcM9MytUcssgDNIiEYAt9dotkLYAdU2It7o2Yjgn8hAV+8GdMJNJJB2tOgSgDsA9gJoAT8tovUegHLETx9IaY7k/DDo7US6dEcG7g8AmkDIQOTOTzn4VXZFnoRzIGRciQxpxwr3lbcxEFJUIvfADj3K2zsQsqhEtsIObcrbdxCiZwvWqLD7oxdo3R+9QOv+6AVa90cv0Lo/eoHW/dELtO6PXqB1f/QCrfujF2jdH71A6/7oBVr2167E/YA9fjJ/bOxS4sLaqzXmlccCiLisxD2HPV4qjxdBxGMlbhj2uKU8PgIJ4VH8pcSFqgJrHFAeg+dteYtqAPBMCXsrf7dGg5Qs/un1Sd6ibkSmZ2E8sMqViN+hvO6GEPxlJeZ1KuV7ayR4m1aelze7E0LOfxq5E76yTc0yohPAQsT/FIDtWVwwvHDsAHBJZjt6wK0WYR1B/XDsL2WLITaTAAYlZq2bUcz6DcAh1B+HpTwls/0OtQR/mmEqliMh5cxkVW5fSwfMZJX3EqGQZQf0yj/WkoLC41hvHK0xBa17v0OLjPwX5PU7NviURVC9cHyVOExIrDqz2g+xVd4A9cUX5KLW6ZKnXvsPM8SOzRQyFHkRe2P8RWxLJOeHGFzLS9D1OvsUcTXiN7fgV5mK1M5b/BjXGNkDEdJO7nREBqR9sMfByIAbxkMKJutwQWYCRAwqcS9gj1fK43kQL8qHrZ3WmFceC8x7qEIJhzVKzGUpiEzPrFFh90cv0Lo/eoHW/dELtO6PXqB1f/QCrfujF2jdH71A6/7oBVr3Ry/Quj96gdb90Qu07s/ygU3tyltYlKejaHiTRk8KR5Y9VCLvwg4PlLdRENKvRJbk3M3U2R1Z8w4H1FIe3DobWRnrTjz4X5SnIuvBrZBTxvVsoSznbvbIyhk7bQD2S9rRd/4KgFMgZyTSCf/T5nL+/YDV2nAqBUwjxo6vX5HgJ1V22ScHXafeAUUAp5EoTXLQ9ZjsH15M4PcDFkXrqMx2aAdcx3Ecx3Ecx3Ecx3Ecx3EcJMNviHMwz13k/ycAAAAASUVORK5CYII=" alt="external-bracket-development-royyan-wijaya-detailed-outline-royyan-wijaya">
+                <h1>Languages</h1>
+                <p>
+                    Experienced with C# for <b>unity</b>, 
+                    intermediate skills with <b>python</b>, 
+                    learning <b>javascript</b> and <b>java</b>
+
+                </p>
+            </div>
+            <div class="skill-card">
+                <img src="data:image/png;base64,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" alt="unity">
+                <h1>Game Engine</h1>
+                <p>
+                    Experienced with <b>Unity</b> for 
+                    <b>Gameplay & environment</b> 
+                    integration, also level 
+                    design
+                </p>
+            </div>
+            <div class="skill-card">
+                <img src="data:image/png;base64,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" alt="external-puzzle-product-management-flatart-icons-outline-flatarticons">
+                <h1>Level Design</h1>
+                <p>
+                    Ability to design and implement 
+                    compelling and functional <b>game 
+                        levels.</b>
+
+                </p>
+            </div>
+            <div class="skill-card">
+                <img src="data:image/png;base64,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" alt="imac-settings">
+                <h1>Softwares</h1>
+                <p>
+                    Worked with various softwares .
+                    such as adobe’s <b>Photoshop, 
+                        illustrator, Substance, unity, 
+                        Blender sketchup</b>
+
+                </p>
+            </div>
+            <div class="skill-card">
+                <img src="data:image/png;base64,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" alt="octaedro">
+                <h1>Low-Poly 3d Art</h1>
+                <p>
+                    Hands on <b>Blender</b> for creating 
+                    <b>low-poly</b> 3d assets which 
+                    blends in game perfectly 
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <h1>Projects</h1>
+        <div class="Games">
+            <h1>Game Development :</h1>
+            <div class="game-grid">
+                <div class="game-card">
+                    <img src="./Public/fruit.png" alt="">
+                    <a href="https://github.com/MeerAzmaanAli/Fruit-Ninja.git">Fruit Slayer</a>
+                    <p>Clone of well known game 
+                        “Fruit Ninja”. This is the 
+                        web game made with javascript 
+                        html and css</p>
+                </div>
+                <div class="game-card">
+                    <img src="./Public/martyrdom.jpg" alt="">
+                    <a href="https://youtu.be/002YJ_MoJMo?si=dsGVEbUdOu1i_b6D">Martyrdom</a>
+                    <p>A ambitious story game project 
+                        based on historical tv series,
+                         player has to complete the 
+                         objectives and stablish the 
+                         the empire,(incomplete)
+                    </p>
+                </div>
+                <div class="game-card">
+                    <img src="./Public/tictactoe.jpg" alt="">
+                    <a href="https://drive.google.com/file/d/1ZMGyiS_b6vasG9vO7dI5hFzyuaeAl79W/view?usp=drivesdk">Tic-Tac-Toe-Tic</a>
+                    <p>A tic tac toe tic game, unlike 
+                        traditional tictactoe game 
+                        this game does not has draw, 
+                        player plays the game until
+                        one of them wins
+
+                    </p>
+                </div>
+                <div class="game-card">
+                    <img src="./Public/society.jpg" alt="">
+                    <a href="https://www.instagram.com/reel/CszDXKuhmQR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">The Society</a>
+                    <p>Developed the town building 
+                        game prototype in which 
+                        player has to build town 
+                        an manage th resources
+                    </p>
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="Environment">
+            <h1>Envionment Design :</h1>
+            <div class="env-grid">
+                <div class="env-card">
+                    <img src="./Public/shrine.png" alt="">
+                    <a href="https://www.artstation.com/artwork/1xdwvL">Forest Shrine</a>
+                    <p>An Enviroment Art showcasing 
+                        a japanese shrine in the 
+                        forest, the Enrivonment 
+                        has the pleasant vibe and 
+                        setting giving an wonderfull 
+                        feel
+
+                    </p>
+                </div>
+                <div class="env-card">
+                    <img src="./Public/strokes.png" alt="">
+                    <a href="https://www.linkedin.com/posts/meer-azmaan-ali-535957226_madewithunity-gamedevelopment-environmentart-activity-7290648809154531329-OswQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi80zkBccOePwu_mqDCJ1qnMXBOsns2Cs8">Final Strokes</a>
+                    <p>It is an Environment Design 
+                        project which focus on concept 
+                        of story-telling via 
+                        environmental elements.An 
+                        emersive explerience, player 
+                        finds the details about what 
+                        would have happend in that 
+                        place
+                    </p>
+                </div>
+                <div class="env-card">
+                    <img src="./Public/ruin.jpg" alt="">
+                    <a href="https://www.artstation.com/artwork/el2bK6">Ruin in the Deep</a>
+                    <p>This environment art is of 
+                        the Ruin which is located 
+                        in the deep dense fogy 
+                        forest
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="other">
+            <h1>Other Projects :</h1>
+            <div class="other-grid">
+                
+                <div class="other-card">                  
+                    <h1>Real-Time Chat Application</h1>
+                    <p>Real time web based chat application
+                        Build using react.js and google firebase 
+                        
+                    </p>
+                </div>
+                <div class="other-card">
+                    <h1>Engineering firm webSite : SES
+                    </h1>
+                    <p>Web site for MEP Engineering services firm
+
+
+                    </p>
+                </div>
+                <div class="other-card">
+                    <h1>Clothing website : Ramen and ryu</h1>
+                    <p>A Clothing Website “Ramen & Ryu”, it is the dynamic website developed on react.js
+
+
+                    </p>
+                </div>
+                <div class="other-card">
+                    <h1>Ai Projects</h1>
+                    <p>Integrated Ai API in python for various purpose
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        
+        <div class="contact-holder">
+            <div class="contact-card">
+                <a href="mailto:azmaan.ali11@gmail.com"><b>Email:</b> azmaan.ali11@gmail.com</a>
+            </div>
+            <div class="contact-card">
+                <p><b>Phone :</b> +91 9425087686</p>
+            </div>
+            <div class="contact-card">
+                <a href="https://www.linkedin.com/in/meer-azmaan-ali-535957226">
+                    <b>LinkedIn:</b> linkedin.com/in/meer-azmaan-ali-535957226</a>
+            </div>
+            <div class="contact-card">
+                <a href="https://www.artstation.com/meerazmaanali
+                "><b>ArtStation:</b> artstation.com/meerazmaanali</a>
+            </div>
+            <div class="contact-card">
+                <a href="https://www.github.com/MeerAzmaanAli
+                "><b>GitHub: </b>github.com/MeerAzmaanAli</a>
+            </div>
+        </div>
+        <img class="cont_img" src="./Public/contact.png" alt="">
+        
+    </section>
 </body>
 </html>

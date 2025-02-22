@@ -55,7 +55,7 @@
     width: 27rem;
     max-width: 100%;
   }
-  @media (max-width: 400px) {
+  @media (max-width: 450px) {
     .imageHero img {
         display: none;
     }
@@ -135,7 +135,7 @@
     gap: 20px; 
     padding: 10px; 
   }
-  @media  (max-width: 400px) {
+  @media  (max-width: 450px) {
     .skills-grid{
         grid-template-columns: repeat(2, 1fr); 
         grid-template-rows: repeat(3, auto); 
@@ -194,7 +194,7 @@
     gap: 50px;
     margin-left: 125px;
   }
-  @media  (max-width: 400px) {
+  @media  (max-width: 450px) {
     .game-grid{
         grid-template-columns: repeat(1, 1fr); 
         grid-template-rows: repeat(4, auto); 
@@ -240,7 +240,7 @@
     grid-template-rows: repeat(1, auto); 
     
   }
-  @media  (max-width: 400px) {
+  @media  (max-width: 450px) {
     .env-grid{
         grid-template-columns: repeat(1, 1fr); 
         grid-template-rows: repeat(3, auto); 
@@ -288,7 +288,7 @@
     margin-left: 150px;
     
   }
-  @media  (max-width: 400px) {
+  @media  (max-width: 450px) {
     .other-grid{
         grid-template-columns: repeat(1, 1fr); 
         grid-template-rows: repeat(4, auto); 
@@ -343,7 +343,7 @@
         color: black;
     }
   }
-  @media  (max-width: 400px) {
+  @media  (max-width: 450px) {
     .contact-holder{
         text-align: left;
         margin-left: 500px;
